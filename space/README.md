@@ -23,7 +23,3 @@ A partir de indicadores ambientais derivados de observação da Terra por satél
 - mostra a **evolução histórica** e a **projeção**.
 
 Conectado ao **ODS 13 (Ação Climática)**.
-
-> Este `README.md` (com o cabeçalho YAML acima) deve ir para a **raiz do Space**, junto com
-> `app.py`, `requirements.txt`, a pasta `models/` e `data/processed/dataset.csv`.
-> Veja o guia em `DEPLOY.md`.

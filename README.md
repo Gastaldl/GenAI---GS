@@ -72,8 +72,8 @@ A partir do estado de um país no ano *t*, prevemos o que acontece com a florest
 limitada a [-25%, +25%] para conter outliers.
 - **Classificação (`target_clf`)**: classe de risco derivada da variação:
   - `Desmatamento Alto` (queda > 0,30% a.a.)
-  - `Estavel`
-  - `Recuperacao` (ganho > 0,30% a.a.)
+  - `Estável`
+  - `Recuperação` (ganho > 0,30% a.a.)
 
 Distribuição das classes (modeláveis): Estável 2.723 · Desmatamento Alto 1.108 · Recuperação 855.
 
@@ -134,8 +134,8 @@ ROC-AUC (OvR) e matriz de confusão (classificação).
 | LogisticRegression   | 0.748       | 0.869     | 0.808         | 0.952              |
 
 
-Relatório do melhor classificador (XGBoost, teste): `Desmatamento Alto` F1=0.97 · `Estavel`
-F1=0.97 · `Recuperacao` F1=0.93 — **acurácia 0.97**. **Melhor classificador: XGBoost.**
+Relatório do melhor classificador (XGBoost, teste): `Desmatamento Alto` F1=0.97 · `Estável`
+F1=0.97 · `Recuperação` F1=0.93 — **acurácia 0.97**. **Melhor classificador: XGBoost.**
 
 Figuras em `[reports/figures/](reports/figures/)`: comparação de modelos, matriz de confusão,
 dispersão previsto×real e gráficos SHAP.
@@ -181,7 +181,7 @@ streamlit run app/app.py      # abre em http://localhost:8501
 
 ## 8. Deploy no Hugging Face Spaces
 
-Guia passo a passo em `[space/DEPLOY.md](space/DEPLOY.md)`. Resumo:
+Passos:
 
 1. Crie uma conta em [https://huggingface.co](https://huggingface.co) e um **Space** (SDK **Streamlit**).
 2. Envie para o Space: `app.py` (copie de `app/app.py` para a **raiz**), `requirements.txt`
@@ -205,7 +205,7 @@ app/app.py                     # dashboard Streamlit (entry do HF Space)
 models/                        # best_regressor / best_classifier / metadata (.joblib)
 data/raw/, data/processed/     # painel bruto e dataset processado
 reports/, reports/figures/     # tabelas de métricas e figuras
-space/                         # arquivos e guia para o Hugging Face Spaces
+space/                         # arquivos para o Hugging Face Spaces
 ```
 
 ## 10. Reprodutibilidade
