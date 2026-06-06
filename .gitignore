@@ -1,0 +1,28 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Dados brutos grandes (mantemos apenas o processado versionado, se desejado)
+data/raw/*.csv
+!data/raw/.gitkeep
+
+# Cache/temporarios
+.cache/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# NAO ignoramos models/ nem data/processed/: sao necessarios para o app/HF Space.

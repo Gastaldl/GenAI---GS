@@ -1,0 +1,22 @@
+# GAIE - Global Solution 2026 (Industria Espacial)
+# Dependencias do pipeline de IA/ML. Versoes serao congeladas em requirements-lock.txt
+# apos a instalacao para garantir reprodutibilidade no Hugging Face Spaces.
+
+numpy
+pandas
+scikit-learn
+requests
+shap
+matplotlib
+seaborn
+streamlit
+joblib
+plotly
+# xgboost e opcional: se nao instalar (sem wheel para sua versao de Python),
+# o pipeline usa GradientBoosting do scikit-learn automaticamente.
+xgboost
+
+# Para abrir/executar o notebook (notebooks/pipeline_gaie.ipynb)
+jupyterlab
+nbconvert
+ipykernel

@@ -1,0 +1,12 @@
+# Dependencias do Hugging Face Space (runtime do app).
+# Versoes FIXADAS iguais as do treino para garantir o unpickle dos modelos.
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.9.0
+scipy==1.17.1
+xgboost==3.2.0
+shap==0.52.0
+matplotlib==3.10.9
+plotly==6.8.0
+joblib==1.5.3
+streamlit==1.58.0
