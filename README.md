@@ -33,8 +33,7 @@ desmatamento** de cada país/região (classificação), com **interpretabilidade
 ## Links da entrega
 
 - **Repositório GitHub:** https://github.com/Gastaldl/GenAI---GS.git
-- **Aplicação em funcionamento (Hugging Face Spaces):** *preencher após o deploy* →
-`https://huggingface.co/spaces/<seu-usuario>/<nome-do-space>`
+- **Aplicação em funcionamento (Hugging Face Spaces):** https://huggingface.co/spaces/Gastaldl/gs-desmatamento-satelite
 
 ---
 
