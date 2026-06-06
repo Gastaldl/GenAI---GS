@@ -32,7 +32,7 @@ desmatamento** de cada país/região (classificação), com **interpretabilidade
 
 ## Links da entrega
 
-- **Repositório GitHub:** *preencher após publicar*
+- **Repositório GitHub:** https://github.com/Gastaldl/GenAI---GS.git
 - **Aplicação em funcionamento (Hugging Face Spaces):** *preencher após o deploy* →
 `https://huggingface.co/spaces/<seu-usuario>/<nome-do-space>`
 
@@ -157,8 +157,8 @@ recebeu determinada projeção/risco.
 
 ```powershell
 # 1) Clonar o repositório
-git clone <URL_DO_SEU_REPO>
-cd "GenAI - GS"
+git clone https://github.com/Gastaldl/GenAI---GS.git
+cd GenAI---GS
 
 # 2) Ambiente virtual
 py -m venv .venv
