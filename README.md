@@ -179,17 +179,7 @@ streamlit run app/app.py      # abre em http://localhost:8501
 
 > No Windows, se `python` abrir a Microsoft Store, use `py` no lugar de `python`.
 
-## 8. Deploy no Hugging Face Spaces
-
-Passos:
-
-1. Crie uma conta em [https://huggingface.co](https://huggingface.co) e um **Space** (SDK **Streamlit**).
-2. Envie para o Space: `app.py` (copie de `app/app.py` para a **raiz**), `requirements.txt`
-  (use `[space/requirements.txt](space/requirements.txt)`), a pasta `models/` e
-   `data/processed/dataset.csv`, e o `[space/README.md](space/README.md)` (com o cabeçalho YAML).
-3. O Space faz o build automaticamente e gera a **URL pública** — cole-a na seção *Links*.
-
-## 9. Estrutura do repositório
+## 8. Estrutura do repositório
 
 ```
 README.md                      # este arquivo
@@ -208,7 +198,7 @@ reports/, reports/figures/     # tabelas de métricas e figuras
 space/                         # arquivos para o Hugging Face Spaces
 ```
 
-## 10. Reprodutibilidade
+## 9. Reprodutibilidade
 
 - Seeds fixas (`random_state=42`) em todos os modelos.
 - Versões congeladas em `[requirements-lock.txt](requirements-lock.txt)` (geradas via `pip freeze`).
